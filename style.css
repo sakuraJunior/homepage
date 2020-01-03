@@ -1,0 +1,82 @@
+:root {
+  --bar-size: 8;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  background: #000;
+  padding: 5vw 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#menu-bar,
+#menu-bar span {
+  display: inline-block;
+  transition: all .4s;
+  box-sizing: border-box;
+}
+
+#menu-bar {
+  position: relative;
+  width: calc(var(--bar-size) * 1.15vw);  
+  height: calc(var(--bar-size) * 1vw); 
+}
+
+#menu-bar span {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: calc(var(--bar-size) * 1vw / 7);
+  background-color: #fff;
+  border-radius: calc(var(--bar-size) * 1vw / 7);
+
+}
+
+#menu-bar span:nth-of-type(1) {
+  top: 0;
+}
+
+#menu-bar span:nth-of-type(2) {
+  top: calc(var(--bar-size) * 3vw / 7);
+}
+
+#menu-bar span:nth-of-type(3) {
+  bottom: 0;
+}
+
+#menu-bar.active span:nth-of-type(1),
+#menu-bar.active span:nth-of-type(3) {
+  width: calc(var(--bar-size) * 0.8vw);
+}
+
+#menu-bar.active span:nth-of-type(1) {
+  /* transform: translate(-0.78vw, 2.17vw) rotate(-40deg); */
+  transform: translate(calc(var(--bar-size) * -0.78vw / 10), calc(var(--bar-size) * 2.17vw / 10)) rotate(-40deg);
+}
+
+#menu-bar.active span:nth-of-type(3) {
+  transform: translate(-0.78vw, -2.17vw) rotate(40deg);
+}
+
+header>div {
+  flex: 1;
+  text-align: center;
+}
+
+header .logo img {
+  width: 16vw;
+}
+
+header .lang img {
+  width: 10vw;
+}
+
+#slider {
+  height: 50vw;
+  background: #eee;
+}
