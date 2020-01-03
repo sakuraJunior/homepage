@@ -172,8 +172,13 @@ header .lang img {
   --thema-satuation: 0%;
 }
 
+.toc.corevalue {
+  --thema-color: 325;
+  --thema-satuation: 100%;
+}
+
 .toc h1.h_double {
-  width: 90vw;
+  width: 95vw;
   margin-left: auto;
   margin-right: auto;
 }
@@ -185,4 +190,11 @@ header .lang img {
 
 .toc h1.h_double span:nth-child(2) {
   text-align: right;
+}
+
+footer {
+  background: #000;
+  text-align: center;
+  color: #fff;
+  padding: 5vw;
 }
