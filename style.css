@@ -88,20 +88,20 @@ header .lang img {
 
 .toc {
   padding: 5vw 0;
-  background: hsl(var(--thema-color), 100%, 98%);
+  background: hsl(var(--thema-color), var(--thema-satuation), 98%);
   text-align: center;
 }
 
 .btn {
-  border: .8vw solid hsl(var(--thema-color), 100%, 46%);
+  border: .8vw solid hsl(var(--thema-color), var(--thema-satuation), 46%);
   margin: 1vw;
   padding: 2vw;
   box-sizing: border-box;
   height: 16vw;
   display: flex;
   border-radius: 12vw;
-  background: hsl(var(--thema-color), 100%, 93%);
-  color: hsl(var(--thema-color), 100%, 46%);
+  background: hsl(var(--thema-color), var(--thema-satuation), 93%);
+  color: hsl(var(--thema-color), var(--thema-satuation), 46%);
 }
 
 .btn.pic img {
@@ -118,6 +118,12 @@ header .lang img {
 }
 
 .toc h1 {
+  margin: 3vw 0;
+  font-size: 9vw;
+  color: hsl(var(--thema-color), var(--thema-satuation), 50%);
+}
+
+.toc h1.h_img {
   margin: 0;
 }
 
@@ -127,7 +133,7 @@ header .lang img {
 }
 
 .toc h2 {
-  color: hsl(var(--thema-color), 100%, 50%);
+  color: hsl(var(--thema-color), var(--thema-satuation), 50%);
   font-size: 6vw;
   margin: 0;
   font-weight: normal;
@@ -138,24 +144,45 @@ header .lang img {
   line-height: 2;
   font-size: 5vw;
   text-align: center;
-  margin: 0 5vw;
+  margin: 0;
 }
 
 .toc p img {
-  height: 10vw;
+  height: 8vw;
   margin: 0 .5vw;
   vertical-align: -20%;
 }
 
 .toc strong {
-  font-size: 6vw;
-  color: hsl(var(--thema-color), 100%, 46%)
+  color: hsl(var(--thema-color), var(--thema-satuation), 46%)
 }
 
 .toc.about_team {
   --thema-color: 325;
+  --thema-satuation: 100%;
 }
 
 .toc.project {
   --thema-color: 192; 
+  --thema-satuation: 100%;
+}
+
+.toc.robot {
+  --thema-color: 0;
+  --thema-satuation: 0%;
+}
+
+.toc h1.h_double {
+  width: 90vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.toc h1.h_double span {
+  display: block;
+  text-align: left;
+}
+
+.toc h1.h_double span:nth-child(2) {
+  text-align: right;
 }
