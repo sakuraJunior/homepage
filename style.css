@@ -90,6 +90,19 @@ header .lang img {
   padding: 5vw 0;
   background: hsl(var(--thema-color), var(--thema-satuation), 98%);
   text-align: center;
+  position: relative;
+}
+
+.toc:not(:last-child)::before {
+  height: 2vw;
+  border-radius: 2vw;
+  background: hsl(var(--thema-color), var(--thema-satuation), 50%);
+  content: "";
+  position: absolute;
+  bottom: -1vw;
+  left: 10%;
+  width: 80%;
+  z-index: 2;
 }
 
 .btn {
