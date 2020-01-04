@@ -111,11 +111,11 @@ header .lang img {
 #menu li {
   padding: 5vw 0 2vw;
   border-bottom: 2px solid #fff;
-  color: #fff;
 }
 
 #menu li a {
   text-decoration: none;
+  color : #fff
 }
 
 /* slider*/
