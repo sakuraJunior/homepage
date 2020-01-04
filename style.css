@@ -186,9 +186,9 @@ header .lang img {
   display: flex;
   box-sizing: border-box;
   padding: 3vw;
+  margin: 1vw;
   border: .8vw solid hsl(var(--thema-color), var(--thema-satuation), 50%);
   border-radius: 12vw;
-  margin: 1vw;
   background: hsl(var(--thema-color), var(--thema-satuation), 93%);
   color: hsl(var(--thema-color), var(--thema-satuation), 50%);
 }
@@ -206,3 +206,15 @@ header .lang img {
   text-decoration: none;
 }
 
+.btn.only {
+  margin: 1vw 8vw;
+  padding: 4.5vw;
+}
+
+footer {
+  padding: 3vw;
+  background: #000;
+  font-size: 4vw;
+  color: #fff;
+  text-align: center;
+}
