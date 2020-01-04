@@ -120,12 +120,6 @@ header .lang img {
   color : #fff
 }
 
-/* slider*/
-#slider {
-  height: 40vw;
-  background: #ddd;
-}
-
 /* toc */
 .toc {
   position: relative;
