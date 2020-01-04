@@ -223,7 +223,6 @@ header .lang img {
   display: flex;
   margin: 5vw 0 3vw;
   padding: 2vw;
-  background: skyblue;
 }
 
 .btn {
@@ -239,6 +238,7 @@ header .lang img {
 
 .btn.pic img {
   width: 10vw;
+  height: 10vw;
 }
 
 .btn.txt {
