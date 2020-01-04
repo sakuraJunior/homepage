@@ -96,7 +96,6 @@ header .lang img {
   margin: 0;
   background: #ED018C;
   z-index: 100;
-  overflow: scroll;
 }
 
 .active #menu {
@@ -105,8 +104,10 @@ header .lang img {
 
 #menu ul {
   list-style: none;
+  height: calc(100vh - 42vw);
   padding: 0;
   margin: 32vw 10vw 10vw;
+  overflow: scroll;
 }
 
 #menu li {
