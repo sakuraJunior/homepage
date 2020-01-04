@@ -114,6 +114,10 @@ header .lang img {
   color: #fff;
 }
 
+#menu li a {
+  text-decoration: none;
+}
+
 /* slider*/
 #slider {
   height: 40vw;
