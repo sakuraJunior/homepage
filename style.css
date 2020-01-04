@@ -7,13 +7,13 @@ header {
   background: #000;
   padding: 3vw 0;
   width: 100%;
+  z-index: 200;
 }
 
 .active header{
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 100;
 }
 
 header .container {
@@ -91,12 +91,12 @@ header .lang img {
 #menu {
   display: none;
   position: fixed;
-  top: 23vw;
   width: 100%;
-  height: calc(100vh - 23vw);
+  height: 100vh;
   margin: 0;
   background: #ED018C;
   z-index: 100;
+  overflow: scroll;
 }
 
 .active #menu {
@@ -106,7 +106,7 @@ header .lang img {
 #menu ul {
   list-style: none;
   padding: 0;
-  margin: 10vw;
+  margin: 32vw 10vw 10vw;
 }
 
 #menu li {
