@@ -79,6 +79,10 @@ header .menu_bar span {
   visibility: hidden;
 }
 
+header ul {
+  display: none;
+}
+
 header .logo img {
   width: 16vw;
 }
