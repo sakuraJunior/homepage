@@ -1,12 +1,12 @@
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
+  background: #000;
 }
 
 header {
   background: #000;
   padding: 3vw 0;
-  width: 100%;
   z-index: 200;
 }
 
@@ -257,4 +257,94 @@ footer {
   font-size: 4vw;
   color: #fff;
   text-align: center;
+}
+
+@media (min-width: 900px){
+  header {
+    padding: 1.8vw;
+  }
+
+  header .bar {
+    display: none;
+  }
+
+  header  ul{
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+  }
+
+  header li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 2vw;
+    padding: 1vw;
+  }
+
+  header .logo img {
+    width: 6.8vw;
+  }
+  
+  header .lang img {
+    width: 5vw;
+  }
+
+  .toc h1.h_pic {
+    margin: 2vw 0 0;
+  }
+
+  .toc h1.h_pic img{
+    width: 40vw;
+  }
+
+  .toc h1 {
+    font-size: 6vw;
+  }
+
+  .toc h1.h_double {
+    width: 65vw;
+  }
+
+  .toc h2 {
+    margin: 1vw;
+    font-size: 4vw;
+  }
+
+  .toc p {
+    font-size: 2.5vw;
+  }
+
+  .toc p img {
+    height: 5vw;
+  }
+
+  .toc:not(:last-child)::after {
+    bottom: -.5vw;
+    height: 1vw;
+    border-radius: 1vw;
+  }
+
+  .btn_wrap {
+    margin: 1vw 10vw 1vw;
+    padding: 2vw;
+  }
+
+  .btn {
+    border-width: .5vw;
+    padding: 2vw;
+  }
+
+  .btn.pic img {
+    width: 6vw;
+    height: 6vw;
+  }
+
+  .btn.txt {
+    font-size: 4vw;
+  }
+
+  .btn.only {
+    padding: 3vw;
+  }
 }
