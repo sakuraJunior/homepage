@@ -338,6 +338,9 @@ footer {
     border-width: .5vw;
     padding: 2vw;
   }
+  
+  .btn.pic {
+    padding: 2vw;
 
   .btn.pic img {
     width: 4vw;
