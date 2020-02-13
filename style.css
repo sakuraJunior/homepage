@@ -211,7 +211,7 @@ header .lang img {
 
 .toc p img {
   height: 8vw;
-  margin: 0 .5vw;
+  margin-right: 1vw;
   vertical-align: -20%;
 }
 
@@ -316,7 +316,7 @@ footer {
   }
 
   .toc p {
-    font-size: 2.5vw;
+    font-size: 2vw;
   }
 
   .toc p img {
@@ -340,12 +340,12 @@ footer {
   }
 
   .btn.pic img {
-    width: 6vw;
-    height: 6vw;
+    width: 4vw;
+    height: 4vw;
   }
 
   .btn.txt {
-    font-size: 4vw;
+    font-size: 3vw;
   }
 
   .btn.only {
