@@ -299,20 +299,24 @@ footer {
   }
 
   .toc h1.h_pic img{
-    width: 40vw;
+    width: 30vw;
   }
 
   .toc h1 {
-    font-size: 6vw;
+    font-size: 4vw;
   }
 
   .toc h1.h_double {
     width: 65vw;
   }
 
+  .toc h1.h_double span {
+    display: inline;
+  }
+
   .toc h2 {
-    margin: 1vw;
-    font-size: 4vw;
+    margin: .5vw;
+    font-size: 3vw;
   }
 
   .toc p {
@@ -353,6 +357,11 @@ footer {
   }
 
   .btn.only {
-    padding: 3vw;
+    padding: 2vw;
+  }
+
+  footer {
+    padding: 1vw;
+    font-size: 2vw;
   }
 }
